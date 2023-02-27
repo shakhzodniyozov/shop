@@ -33,10 +33,20 @@ export function RightIcons() {
     return (
         <Flex
             width={{ base: "50%", md: "20%" }}
-            justify={"center"}
+            justify="end"
             align="center"
         >
             <AuthModal />
+            {!isMobile &&
+                <Flex direction="column" mr="3">
+                    <Text fontSize="1.5rem" fontWeight="500" m="0" p="0">
+                        +992 98 890 09 22
+                    </Text>
+                    <Text fontSize="0.8rem" color="gray">
+                        Телефон для связи
+                    </Text>
+                </Flex>
+            }
             <Box display={{ base: "block", lg: "none" }} p={{ base: "0", lg: "1" }} onClick={handleSearchClick}>
                 <Flex>
                     <IoSearchOutline fontSize="2rem" />

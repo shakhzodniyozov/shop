@@ -25,14 +25,14 @@ export function Logo() {
                 >
                     <Text
                         fontWeight={"500"}
-                        fontSize={{ base: "1.2rem", md: "2rem" }}
+                        fontSize={{ base: "1.4rem", md: "2rem" }}
                         color={"yellow.400"}
                     >
                         Z
                     </Text>
                     <Text
                         fontWeight={"500"}
-                        fontSize={{ base: "1.2rem", md: "2rem" }}
+                        fontSize={{ base: "1.4rem", md: "2rem" }}
                         color={"pink.400"}
                         letterSpacing={"2px"}
                     >

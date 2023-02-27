@@ -1,4 +1,4 @@
-import { Box, ListItem, UnorderedList } from "@chakra-ui/react"
+import { Box, Divider, ListItem, Stack, Text, UnorderedList } from "@chakra-ui/react"
 import React from 'react'
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
@@ -41,6 +41,18 @@ export function Menu() {
                 >
                     Гигиена
                     <MdOutlineKeyboardArrowRight fontSize="1.8rem" />
+                </ListItem>
+                <Divider />
+                <ListItem
+                    py="1"
+                    px="3"
+                    display={"flex"}
+                    alignItems={"center"}
+                >
+                    <Stack spacing="0">
+                        <Text fontSize="1.5rem" fontWeight="700">+992 98 890 09 22</Text>
+                        <Text fontSize="0.8rem">телефон для связи</Text>
+                    </Stack>
                 </ListItem>
             </UnorderedList>
         </Box>
